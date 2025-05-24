@@ -198,6 +198,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Benchmark and Task Suite</h2>
         <div class="content has-text-justified">
+          <h3 class="title is-4">Benchmark and Tasks</h3>
           <p>
             Our MineAnyBuild involves approximately 4,000 spatial planning tasks with 500+ buildings/indoor decoration assets. These tasks, including Executable Spatial Plan Generation, Spatial Understanding, Creativity, Spatial Reasoning, and Spatial Commonsense, correspond to diverse evaluation dimensions, thereby conducting a comprehensive assessment of AI agents’ spatial planning capabilities. In Executable Spatial Plan Generation, Spatial Understanding, and Creativity tasks, the agent needs to generate executable spatial plans for building an architecture according to the given instruction. While in Spatial Reasoning and Spatial Commonsense tasks, we introduce ~2,000 VQA pairs, where we ask the agent to answer the given questions accompanied by the related images. 
           </p>
@@ -205,8 +206,9 @@
             <img src="static/images/task_example.png" alt="Task" style="width: 100%; height: auto;">
           </div>
           <br>
+          <h3 class="title is-4">Data Curation Pipeline</h3>
           <p>
-            Data curation pipeline of MineAnyBuild. We conduct three core steps to curate our datasets: data collection, quality checking, and data annotation. On the right side, a Sankey diagram showing our data processing flow is presented, along with an example of simplified format of processed data.
+            Data curation pipeline of <b>MineAnyBuild</b>. We conduct three core steps to curate our datasets: data collection, quality checking, and data annotation. On the right side, a Sankey diagram showing our data processing flow is presented, along with an example of simplified format of processed data.
           </p>
           <div class="item">
             <img src="static/images/pipeline.png" alt="Pipeline" style="width: 100%; height: auto;">
@@ -217,7 +219,34 @@
   </div>
 </section>
 
-
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments and Visualization</h2>
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Evaluation Results</h3>
+          <p>
+            Evaluation results of AI agents on MineAnyBuild. <b>Gray</b> indicates the best performance of each evaluation dimension among all agents and <b>Light Gray</b> indicates the second best results. We also highlight the top three agents based on their overall performance with <b>Dark Orange</b>, <b>Orange</b>, <b>Light Orange</b>, respectively.
+          </p>
+          <div class="item">
+            <img src="static/images/eva_results.png" alt="Eva Results" style="width: 100%; height: auto;">
+          </div>
+          <p>
+            Bar chart of Output Success Rate (OSR) for MLLMs. Two green dotted lines indicate the average OSR of proprietary models and open-source models, respectively.
+          </p>
+          <div class="item">
+            <img src="static/images/bar.png" alt="bar" style="width: 100%; height: auto;">
+          </div>
+          <h3 class="title is-4">Visualization</h3>
+          <div class="item">
+            <img src="static/images/visualization.png" alt="Visualization" style="width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Image carousel -->
